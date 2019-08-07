@@ -41,6 +41,7 @@
     "supertest": "^2.0.1"
   },
   "scripts": {
+    "start": "node start.js",
     "server": "node server.js",
     "lint": "eslint .",
     "test": "mocha ./test/test*.js --reporter spec",
